@@ -1,0 +1,77 @@
+
+body {
+    text-align: left;
+    font-family: 'Merriweather', serif;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; border-right: 10px; border-right-color: black;}
+.item3 { grid-area: main; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  background-color:antiquewhite;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container main {
+    background-color: blueviolet;
+}
+nav {
+   display: block; 
+}
+
+H1 {
+    color: red;
+    font-size: 75px;
+    font-family: 'Sacramento', cursive;
+}
+
+H2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+H3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+    list-style-position: inside;
+  }
+
+img {
+    background-color: red;
+}
+
+table, th, td {
+    padding: 15px;
+    border: 5px;
+    border-color: black;
+  }
+
+  .contact-me {
+background-color: antiquewhite;
+  }
+
+  .introduction {
+background-image: url("/vacation_collage.jpg");
+  }
+
+  .bottom-container {
+background-color: rgb(192, 238, 223);
+font-family: 'Montserrat', sans-serif;
+  }
+
+  #fn {
+    background-color:cornsilk;}

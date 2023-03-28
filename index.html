@@ -1,59 +1,170 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>My Vacation Wish List</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel-"icon" href="airplane_favicon.ico">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<html lang=""en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Vacation Wish List</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel-"icon" href="airplane_favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+
+  <div class="grid-container">
+    <div class="item1">
+      <h1> I Want To Go To There </h1>
+      <p>
+      <h2> A site to select upcoming vacation destinations by me, </h2>
+      <h2 id="fn">Anita</h2>
+    </div>
+
+    <div class="item2">
+      <p>Navigate to:</p>
+      <nav class="menu">
+        <a href="australia.html">Australia</a><br>
+        <a href="banff.html">Banff</a> <br>
+        <a href="greece.html">Greece</a> <br>
+        <a href="iceland.html">Iceland</a><br>
+      </nav>
+    </div>
+
+    <div class="item3">
+      <img src="vacation_collage.jpg" alt="a collage of various destinations">
+    </div>
+
+    <div class="item5">
+      <div class="contact-me">
+        <p>
+        <h3>Would you like to suggest a destination?</h3>
+        </p>
+        <p> Fill out this form and let me know what I should consider.</p>
+
+        <form action="">
+          <table>
+            <tr>
+              <th>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+              </th>
+              <th>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <p>
+              </th>
+            </tr>
+          </table>
+          <label for="can_contact">Click this box if I can contact you to ask more questions.</label>
+          <input type="checkbox" id="can_contact" name="can_contact"><br><br>
+
+          <label for="suggest">Enter a suggested vacation.</label></p>
+          <textarea id="suggest" name="suggest" rows="4" cols="50"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+          <br><br>
+        </form>
+
+      </div>
+      <div class="bottom-container">
+        <a href="mailto:anita.duenas@cision.com">CONTACT ME</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/anitaduenas/"> My LinkedIn</a>
+        <a class="footer-link" href="https://www.cision.com/">Cision Website</a>
+        <p>©2023 Anita Duenas.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <div class="introduction">
+            <h1> I Want To Go To There </h1>
+            <p><h2> A site to select upcoming vacation destinations, by me, </h2> <h2 id="firstname">Anita</h2>
+        </div>
+
+        <div class="middle-container">
+            <img src="" alt="">
+            <p>In these pages, I will outline places I'd like to go on vacation and their pros and cons using the following criteria.</p> 
+              <ol>
+               <li>Overall Expense</li>
+               <li>Length of Air Travel</li>
+               <li>Culture</li>
+               <li>Food</li>
+             </ol>
+        </div>
+          <hr>
+
+        <div class="locations">
+            <table>
+              <tr>
+                <th>
+                  <p>Navigate to:</p>       
+                  <nav class="menu">
+                    <a href="australia.html">Australia</a> 
+                    <a href="banff.html">Banff</a> 
+                    <a href="greece.html">Greece</a> 
+                    <a href="iceland.html">Iceland</a>
+                  </nav> <br>
+                </th>
+                <th><img src = "vacation_collage.jpg" alt = "a collage of various destinations">
+                </th>
+              </tr>
+            </table>
+          </div>
+
+          <hr>
+
+          <div class="contact-me">
+            <p><h3>Would you like to suggest a destination?</h3></p>
+            <p> Fill out this form and let me know what I should consider.</p>
+
+            <form action="">
+              <table>
+                <tr>
+                  <th>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>      
+                  </th>
+                  <th>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><p>
+                  </th>
+                </tr>
+              </table>
+              <label for="can_contact">Click this box if I can contact you to ask more questions.</label>
+              <input type="checkbox" id="can_contact" name="can_contact"><br><br>
+
+              <label for="suggest">Enter a suggested vacation.</label></p>
+              <textarea id="suggest" name="suggest" rows="4" cols="50"></textarea>
+              <br>
+              <input type="submit" value="Submit">
+              <br><br>
+          </form> 
+          
+          </div>
         
-       <h1> I Want To Go To There </h1>
-       <h2> A site to select upcoming vacation destinations, by me, Anita! </h2>
-       <p>In these pages, I will outline places I'd like to go on vacation and their pros and cons.</p> 
-       <p>I will use the following criteria:</p>
-       <ol>
-        <li>Expense Level</li>
-        <li>Length of Air Travel</li>
-        <li>Culture</li>
-        <li>Food</li>
-      </ol>
-
-    <p>Navigate to:</p>       
-      <nav>
-        <a href="australia.html">Australia</a> |
-        <a href="banff.html">Banff</a> |
-        <a href="greece.html">Greece</a> |
-        <a href="iceland.html">Iceland</a>
-      </nav> <br>
-
-      <img src = "vacation_collage.jpg" alt = "a collage of various destinations">
-       
-      <br>
-      <br>
-      <p><h3>Would you like to suggest a destination?</h3></p>
-      <p> Fill out this form and let me know what I should consider.</p>
-
-      <form action="">
-        <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-        <label for="can_contact">Click this box if I contact you to ask more questions.</label>
-            <input type="checkbox" id="can_contact" name="can_contact"><br><br>
-        <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br><p>
-        <label for="suggest">Enter a suggested vacation.</label></p>
-        <textarea id="suggest" name="suggest" rows="4" cols="50"></textarea>
+            
+        <hr>
         <br>
-        <input type="submit" value="Submit">
-        <br><br>
-      </form>  
+        
+      
+<![endif]-->
 
 
-    </body>
+
+
+</body>
+
 </html>
